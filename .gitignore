@@ -1,0 +1,49 @@
+# ==============================================================================
+# CYBERSECURITY REPOSITORY .GITIGNORE
+# Strict exclusion of credentials, keys, databases, and OS metadata
+# ==============================================================================
+
+# Credentials & Sensitive Configuration
+.env
+*.env
+*.env.*
+*.pem
+*.key
+*.cert
+*.crt
+*.pfx
+*.p12
+
+# Python Artifacts & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+env/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases, Logs & Backups
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.log
+*.dump
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Editor / IDE Files
+.vscode/
+.idea/
+*.swp
+*~
